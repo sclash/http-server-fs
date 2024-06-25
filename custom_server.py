@@ -1,7 +1,6 @@
 # # # # https://www.scaler.com/topics/build-a-chatroom-in-python/
 
 
-
 # importing the necessary modules.
 import socket
 import select
@@ -125,4 +124,3 @@ while True:
                     """
                     client_socket.send(
                         user['header'] + user['data'] + message['header'] + message['data'])
-
